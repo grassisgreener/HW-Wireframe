@@ -1,0 +1,91 @@
+body,
+article {
+    background-color: #777;
+}
+
+.container {
+    background-color: #ebebeb;
+    width: 100%;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #ebebeb;
+    width: 50%;
+    text-align: center;
+}
+
+header {
+    height: 75px;
+    margin-left: 0px;
+}
+
+nav {
+    margin-top: 17px;
+    margin-left: 0px;
+    height: 75px;
+}
+
+section {
+    background-color: #ebebeb margin-left:0px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    float: left;
+    overflow: auto;
+    clear: both;
+}
+
+#pickles {
+    width: 45%;
+}
+
+aside {
+    background-color: #ebebeb bottom:10px;
+    right: 20px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    float: right;
+    text-align: center;
+    overflow: auto;
+}
+
+article {
+    padding: 20px;
+    margin-left: 50px;
+    width: 30%;
+    margin-bottom: 30px;
+    overflow: auto;
+    float: left;
+    clear:both;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    margin-bottom: 20px;
+    background-color: #ebebeb
+}
+
+p {
+    margin-top: 20px;
+    background-color: #ebebeb
+}
+
+footer {
+    background-color: #ebebeb;
+    width: 100%;
+    height: 75px;
+    margin top: 100px;
+    margin-left: 0px;
+    text-align: center;
+}
